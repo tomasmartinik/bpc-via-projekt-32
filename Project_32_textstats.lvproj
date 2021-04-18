@@ -41,6 +41,11 @@
 			<Item Name="State.ctl" Type="VI" URL="../controls/State.ctl"/>
 		</Item>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="2.vi" Type="VI" URL="../../../pracovní záloha 18.4.16.46/bpc-via-projekt-32/2.vi"/>
+		<Item Name="1.vi" Type="VI" URL="../../../pracovní záloha 18.4.16.46/bpc-via-projekt-32/1.vi"/>
+		<Item Name="generate_string_range.vi" Type="VI" URL="../../../pracovní záloha 18.4.16.46/bpc-via-projekt-32/generate_string_range.vi"/>
+		<Item Name="calculate_frequency.vi" Type="VI" URL="../../../pracovní záloha 18.4.16.46/bpc-via-projekt-32/calculate_frequency.vi"/>
+		<Item Name="prepare_and_save.vi" Type="VI" URL="../../../pracovní záloha 18.4.16.46/bpc-via-projekt-32/prepare_and_save.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
@@ -235,7 +240,6 @@
 				<Item Name="WDT Append Waveforms I16.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms I16.vi"/>
 				<Item Name="WDT Append Waveforms I32.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms I32.vi"/>
 				<Item Name="WDT Append Waveforms I64.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms I64.vi"/>
-				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
@@ -247,13 +251,14 @@
 				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
 				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="truncate_string.vi" Type="VI" URL="../truncate_string.vi"/>
-			<Item Name="create_file.vi" Type="VI" URL="../create_file.vi"/>
+			<Item Name="truncate_string.vi" Type="VI" URL="../../../pracovní záloha 18.4.18.56/bpc-via-projekt-32/truncate_string.vi"/>
+			<Item Name="create_file.vi" Type="VI" URL="../../../pracovní záloha 18.4.18.56/bpc-via-projekt-32/create_file.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
